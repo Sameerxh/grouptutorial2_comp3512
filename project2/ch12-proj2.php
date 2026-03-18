@@ -29,15 +29,16 @@ include 'data.inc.php';
            <label>Genre</label><br/>
            <select name="genre" class="form__input form__select">
               <option>Choose genre</option> 
-
-           </select>
+              <?php echo makeOptions($genres); ?>
+             </select>
+             
        </p>
        <p class="form__row"> 
            <label>Subject</label><br/>
            <select name="subject" class="form__input form__select">
               <option>Choose subject</option> 
-
-           </select>
+              <?php echo makeOptions($genres); ?>
+             </select>
        </p>
        <p class="form__row">	
            <label>Medium</label><br/>               
