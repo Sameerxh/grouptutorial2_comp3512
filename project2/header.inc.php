@@ -1,5 +1,5 @@
      
-     <?php include 'data.inc.php'; ?>
+     <?php include_once 'data.inc.php'; ?>
         <header>
           <h1>Art Store</h1>
           <nav>

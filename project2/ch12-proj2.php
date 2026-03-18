@@ -1,6 +1,6 @@
 <?php 
 
-include 'data.inc.php';
+include_once 'data.inc.php';
 
 ?>
 <!DOCTYPE html>
