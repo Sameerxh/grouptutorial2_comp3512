@@ -13,7 +13,7 @@ include 'data.inc.php';
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    
+<?php include 'header.inc.php'; ?>
 <main>
     <section class="results">
 

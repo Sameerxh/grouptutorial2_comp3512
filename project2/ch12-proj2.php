@@ -12,7 +12,7 @@ include 'data.inc.php';
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    
+<?php include 'header.inc.php'; ?>
 <main>
 <form class="form" id="mainForm" method="post" action="art-process.php">
    <fieldset class="form__panel">
