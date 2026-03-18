@@ -16,7 +16,7 @@ $subjects = ["Animals", "Landscape", "People"];
 function makeOptions($array) {
    $options = "";
    foreach ($array as $item) {
-      $options .= "<option>$item</option>";
+      $options = "<option>$item</option>";
    }
    return $options;
 }
